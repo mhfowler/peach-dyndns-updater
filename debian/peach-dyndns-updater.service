@@ -1,0 +1,11 @@
+[Unit]
+Description=Systemd timer which keeps a dynamic dns subdomain up to date with the latest device IP using nsupdate.
+
+[Service]
+Type=oneoff
+User=peach-dyndns-updater
+Environment="RUST_LOG=info"
+ExecStart=/usr/bin/peach-dyndns-updater
+
+[Install]
+WantedBy=multi-user.target
