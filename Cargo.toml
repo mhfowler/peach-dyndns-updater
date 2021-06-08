@@ -1,6 +1,6 @@
 [package]
 name = "peach-dyndns-updater"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Max Fowler <notplants@mfowler.info>"]
 edition = "2018"
 description = "Cron job which keeps a dynamic dns subdomain up to date with the latest device IP using nsupdate."
