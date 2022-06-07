@@ -1,3 +1,7 @@
+⚠️ This repo is no longer active and has been archived. The active repo can be found at https://git.coopcloud.tech/PeachCloud/peach-workspace/src/branch/main/peach-dyndns-updater ⚠️
+
+-----
+
 # peach-dyndns-updater
 
 This is a debian service which uses a systemd timer and nsudpate to keep the IP address of a dynamic dns record up to date. 
